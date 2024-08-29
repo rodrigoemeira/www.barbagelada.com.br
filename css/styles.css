@@ -129,7 +129,7 @@ footer {
     nav ul {
         text-align: center;
         flex-direction: column;
-        align-content: center;
+        align-items: center;
 
     }
 
