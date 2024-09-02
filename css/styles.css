@@ -148,6 +148,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    height: 50px;
+    width: 50px;
 }
 
 .gallery img {
