@@ -145,7 +145,7 @@ p {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* 
     justify-content: center; /* Alinha os itens horizontalmente ao centro */
     align-items: center; /* Alinha os itens verticalmente ao centro */
     gap: 10px; /* Espaçamento entre os itens */
