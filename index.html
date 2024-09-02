@@ -6,12 +6,11 @@
     <title>Barba Gelada</title>
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
-<body align ="left">
+<body>
     <header>
         <div class="logo">
             <img src="img/barbalogo3.png" alt="Logo Barba Gelada">
         </div>
-        
         <nav>
             <ul>
                 <li><a href="#sobre-nos">Sobre Nós</a></li>
@@ -24,8 +23,8 @@
 
     <main>
         <section id="sobre-nos">
-            <h1 class="section-title">Bem-vindo à Barba Gelada</h1>
-            <p>Sua barbearia de confiança com os melhores cortes e serviços para manter seu estilo.</p>
+            <h1 class="section-title">Seja Bem-Vindo à Barba Gelada</h1>
+            <p class="welcome-message">Sua barbearia de confiança com os melhores cortes e serviços para manter seu estilo.</p>
         </section>
 
         <section id="nossos-trabalhos">
@@ -33,20 +32,65 @@
             <p>Aqui você encontra alguns dos melhores cortes que já fizemos!</p>
         </section>
 
-        <section id="video">
-            <h2>Assista ao Nosso Vídeo</h2>
-            <iframe width="300" height="auto" src="https://www.youtube.com/embed/5bgkg1NReZE?si=AMJyGBGDwyVUUXWW" 
-                    title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen></iframe>
+        <section id="formulario">
+            <h2 class="section-title">Formulário de Perguntas</h2>
+            <div class="form-container">
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="horarios">
+            <h2 class="section-title">Horários de Atendimento</h2>
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>09:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Fechado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="galeria">
+            <h2 class="section-title">Galeria</h2>
+            <div class="gallery">
+                <img src="img/logo.png" alt="Imagem 1">
+                <img src="img/imagem2.jpg" alt="Imagem 2">
+                <img src="img/imagem3.jpg" alt="Imagem 3">
+                <img src="img/imagem4.jpg" alt="Imagem 4">
+                <img src="img/imagem5.jpg" alt="Imagem 5">
+                <img src="img/imagem6.jpg" alt="Imagem 6">
+            </div>
         </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <h6><p>&copy; 2024 Barba Gelada - Todos os direitos reservados.</p></h6>
-        </div>
+        <p>&copy; 2024 Barba Gelada - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
