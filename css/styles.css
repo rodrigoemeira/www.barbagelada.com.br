@@ -149,8 +149,8 @@ p {
     justify-content: center; /* Alinha os itens horizontalmente ao centro */
     align-items: center; /* Alinha os itens verticalmente ao centro */
     gap: 10px; /* Espaçamento entre os itens */
-    height: 100%; /* Define a altura da galeria como 100% do contêiner pai */
-    width: 100%; /* Define a largura da galeria como 100% do contêiner pai */
+    height: 100px; /* Define a altura da galeria como 100% do contêiner pai */
+    width: 50px; /* Define a largura da galeria como 100% do contêiner pai */
 }
 
 
