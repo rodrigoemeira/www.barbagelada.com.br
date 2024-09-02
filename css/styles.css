@@ -159,6 +159,8 @@ p {
     height: auto;
     border-radius: 5px;
     align-items: center;
+    height: 100px; /* Define a altura da galeria como 100% do contêiner pai */
+    width: 50px; /* Define a largura da galeria como 100% do contêiner pai */
 }
 
 footer {
