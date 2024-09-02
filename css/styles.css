@@ -24,8 +24,8 @@ header {
 }
 
 .logo img {
-    max-height: auto;
-    width: auto;
+    max-height: 50px;
+    width: 50px;
 }
 
 nav ul {
