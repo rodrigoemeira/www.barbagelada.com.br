@@ -146,25 +146,20 @@ p {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
-    gap: 10px;
-    height: 100px;
-    width: 100px;
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 10px; /* Espaçamento entre os itens */
+    height: 100%; /* Define a altura da galeria como 100% do contêiner pai */
+    width: 100%; /* Define a largura da galeria como 100% do contêiner pai */
 }
+
 
 .gallery img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    /* Ajuste o tamanho das imagens para serem responsivas */
-    flex: 1 1 calc(33.333% - 20px); /* 3 imagens por linha com espaçamento */
-    /* Adaptação para tamanhos menores de tela */
-    @media (max-width: 768px) {
-        flex: 1 1 calc(50% - 20px); /* 2 imagens por linha em tablets */
-    }
-    @media (max-width: 500px) {
-        flex: 1 1 calc(100% - 20px); /* 1 imagem por linha em dispositivos móveis */
-    }
+    align-items: center;
+}
 
 footer {
     background: linear-gradient(to right, rgba(128, 2, 2, 0.8), rgba(0, 0, 255, 0.8), rgba(235, 229, 229, 0.8));
