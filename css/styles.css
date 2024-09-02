@@ -156,8 +156,15 @@ p {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    align-items: center;
-}
+    /* Ajuste o tamanho das imagens para serem responsivas */
+    flex: 1 1 calc(33.333% - 20px); /* 3 imagens por linha com espaçamento */
+    /* Adaptação para tamanhos menores de tela */
+    @media (max-width: 768px) {
+        flex: 1 1 calc(50% - 20px); /* 2 imagens por linha em tablets */
+    }
+    @media (max-width: 500px) {
+        flex: 1 1 calc(100% - 20px); /* 1 imagem por linha em dispositivos móveis */
+    }
 
 footer {
     background: linear-gradient(to right, rgba(128, 2, 2, 0.8), rgba(0, 0, 255, 0.8), rgba(235, 229, 229, 0.8));
