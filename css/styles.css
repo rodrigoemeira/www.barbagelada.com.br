@@ -146,7 +146,7 @@ p {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-items: center;
     gap: 10px;
     height: 100px;
     width: 100px;
