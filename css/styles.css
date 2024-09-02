@@ -9,7 +9,7 @@ body, h1, h2, p, ul, li, table {
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("img/fundo.webp");
+    background-image: url("../img/background2.jpg");
     background-size: cover;
     background-position: center;
     color: #f8f6f6;
