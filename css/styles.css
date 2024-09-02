@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, rgba(10, 10, 10, 0.8), rgba(128, 0, 0, 0.8));
+    background: linear-gradient(to right, rgba(128, 2, 2, 0.8), rgba(0, 0, 255, 0.8), rgba(235, 229, 229, 0.8));
     padding: 10px 20px;
 }
 
