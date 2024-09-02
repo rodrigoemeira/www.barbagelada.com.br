@@ -5,10 +5,9 @@ ul {
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("../img/fundo.webp");
+    background-image: url("../img/fuxndo.webp");
     background-size: cover;
     background-position: center;
-    margin: 0;
     padding: 0;
     color: #f8f6f6;
     display: flex;
